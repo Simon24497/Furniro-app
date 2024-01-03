@@ -599,11 +599,6 @@ const CheckOut = ({ products, onQuantityChange, resetShoppingCart }) => {
 					</a>
 				</div>
 			</form>
-			{orderConfirmed && (
-				<div className="order-confirmation">
-					<p>Your order is confirmed! It's ready for delivery.</p>
-				</div>
-			)}
 			<Featured />
 		</motion.div>
 	)
